@@ -22,7 +22,7 @@ const Services = () => {
       heading: "TODO list",
       text: "A todo list website that helps you organise \
       your daily tasks",
-      link: "https://determined-torvalds-756cf3.netlify.app/login",
+      link: "https://react-todo-list-ten-tawny.vercel.app/login",
     },
     {
       id: 2,
