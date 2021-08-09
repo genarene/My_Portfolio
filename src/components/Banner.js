@@ -76,17 +76,13 @@ const Banner = () => {
                   </div>
 
                   <div className="header__buttons">
-                    <p
-                      onClick={() =>
-                        scroller.scrollTo("About", {
-                          smooth: true,
-                          duration: 1500,
-                        })
-                      }
+                    <a
+                      href="https://drive.google.com/file/d/1csDhuXN9YrK2IUYjZNAUpMfVqzIEW7uf/view?usp=sharing"
+                      target="_blank"
                       className="btn btn-outline"
                     >
-                      Contact Me
-                    </p>
+                      Download CV
+                    </a>
                   </div>
                 </div>
               </div>
