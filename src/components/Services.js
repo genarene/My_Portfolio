@@ -22,7 +22,8 @@ const Services = () => {
       heading: "TODO list",
       text: "A todo list website that helps you organise \
       your daily tasks",
-      link: "https://react-todo-list-ten-tawny.vercel.app/login",
+      link2: "https://react-todo-list-ten-tawny.vercel.app/login",
+      link: "https://github.com/genarene/React-todo-list",
     },
     {
       id: 2,
@@ -39,6 +40,7 @@ const Services = () => {
       text: "A game that interacts with the user,\
         Where they plant their own flowers and plants",
       link: "https://github.com/genarene/My-Terrarium",
+      link2: "https://trusting-franklin-0033a4.netlify.app/",
     },
     {
       id: 4,
@@ -47,6 +49,7 @@ const Services = () => {
       text: "A blog post site that gives a glimse of my coding journey\
         from my First line in HTML to learning C# ",
       link: "https://github.com/genarene/blog-post",
+      link2: "https://blog-post-rho.vercel.app/",
     },
     {
       id: 5,
@@ -55,6 +58,7 @@ const Services = () => {
       text: "Enables a user to keep track of what they intend to buy\
         and what they have already purchased",
       link: "https://github.com/genarene/Shopping-list",
+      link2: "https://trusting-archimedes-80e205.netlify.app/",
     },
     {
       id: 6,
@@ -92,6 +96,20 @@ const Services = () => {
                         {" "}
                         {info.icon}
                       </a>
+                      {info.link2 ? (
+                        <span className="link2">
+                          <a
+                            href={info.link2}
+                            target={"_blank"}
+                            rel="noopener noreferrer"
+                            style={{ textDecoration: "none", color: "inherit" }}
+                          >
+                            Visit site
+                          </a>
+                        </span>
+                      ) : (
+                        ""
+                      )}
                     </div>
                   </div>
                 </div>
